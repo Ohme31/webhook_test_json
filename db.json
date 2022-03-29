@@ -1,4 +1,4 @@
-{
+ {
   "posts": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
@@ -9,7 +9,6 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "refreshed_impression": {
-    {
         "agentMetadata":{
             "agentReturnUrl":"https://dummy.data",
             "providerPhoneNumber":"(999) 999 9999"
@@ -52,6 +51,5 @@
             }
         ],
         "status":"complete"
-    }
   }
 }
