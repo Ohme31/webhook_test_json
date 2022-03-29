@@ -1,0 +1,57 @@
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "refreshed_impression": {
+    {
+        "agentMetadata":{
+            "agentReturnUrl":"https://dummy.data",
+            "providerPhoneNumber":"(999) 999 9999"
+        },
+        "currentPlan":{
+            "installmentCents":33100,
+            "issuerId":"mercury",
+            "issuerName":"Mercury",
+            "numberOfDrivers":1,
+            "numberOfVehicles":1,
+            "termLengthMonths":6,
+            "totalPremiumCents":198600
+        },
+        "footerContent":{
+            "agency":"Savvy Insurance Solutions, LLC",
+            "licenseText":"GA License #209484"
+        },
+        "impressionId":"test-impression-id",
+        "refreshedImpressionResult":true,
+        "requestId":"test-request-id",
+        "results":[
+            {
+                "quoteContent":{
+                    "averageMonthlySavingsCents":11186,
+                    "bindPhoneNumber":"(844) 230 8867",
+                    "clickText":"Save $111.86 avg/month",
+                    "clickUrl":"https://click.savvy.insure/test-request-id",
+                    "downPaymentCents":0,
+                    "fulfilledBy":"Insuramatch",
+                    "id":"test-result-id",
+                    "issuerId":"mileauto",
+                    "issuerName":"Mile Auto",
+                    "quoteMonthlyCents":21914,
+                    "redirectTarget":"Call to bind",
+                    "referenceNumber":"112233445",
+                    "termLengthMonths":6,
+                    "totalPremiumCents":131488,
+                    "totalSavingsCents":67112
+                }
+            }
+        ],
+        "status":"complete"
+    }
+  }
+}
